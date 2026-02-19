@@ -1,1 +1,4 @@
+# Virtual environment
+venv/   
 py312venv/
+py*venv/
