@@ -27,6 +27,7 @@ def test_project_structure():
 def test_config_imports():
     """Test that config module can be imported."""
     from src.config import PROJECT_ROOT, DATA_DIR, MODELS_DIR
+
     assert PROJECT_ROOT.exists(), "PROJECT_ROOT should exist"
     assert isinstance(DATA_DIR, Path), "DATA_DIR should be a Path"
     assert isinstance(MODELS_DIR, Path), "MODELS_DIR should be a Path"
