@@ -2,3 +2,12 @@
 venv/   
 py312venv/
 py*venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class  
+*.egg-info/
+
+# Files to ignore
+C:\Users\<avish>\.kaggle\kaggle.json
